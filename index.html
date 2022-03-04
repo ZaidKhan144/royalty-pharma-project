@@ -53,17 +53,6 @@ var canvas = d3.select("canvas"),
     height = canvas.property("height"),
     context = canvas.node().getContext("2d");
 
-    make_base();
-
-function make_base()
-{
-  base_image = new Image();
-  base_image.src = 'preview.png';
-  base_image.onload = function(){
-    context.drawImage(base_image, 0, 0);
-  }
-}
-
 var projection = d3.geoOrthographic()
     .scale((height - 10) / 2)
     .translate([width / 2, height / 2])
