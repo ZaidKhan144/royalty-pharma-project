@@ -61,16 +61,6 @@ header h1{
     animation: fadeIn linear 2s;
 }
 
-.globe {
-    width: 100%;
-    text-align: center;
-    padding: 80px 0;
-}
-
-canvas {
-    display: inline;
-}
-
 .hex-container {
     height: 100%;
     max-height: 100vh;
@@ -83,7 +73,6 @@ canvas {
     grid-gap: 2px;
     filter: drop-shadow(0px 0px 8px rgba(247,247,247,0.9));
     justify-content: center;
-    
 }
 
 .hexagon {
