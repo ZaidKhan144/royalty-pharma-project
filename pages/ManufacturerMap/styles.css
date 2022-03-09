@@ -138,6 +138,13 @@ canvas {
     /* canvas {
         width: 70%;
     } */
+
+    .map-point {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border: 4px solid #7fcff7;
+    }
 }
 
 @media (max-width: 450px) {
