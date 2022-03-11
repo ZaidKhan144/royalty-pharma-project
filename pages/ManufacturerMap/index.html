@@ -11,15 +11,12 @@
 <body>
     
     <div class="man-map">
-        <div class="back">
-            <a href="../../index.html">Back</a>
-        </div>
         <!-- <div class="globe">
             <canvas width="960" height="600"></cavnas>
         </div> -->
         
         <div class="distribution-map">
-            <img src="./map.png" alt="Map">
+            <img src="./map.png" class="map" alt="Map">
 
             <!-- China -->
             <button class="map-point" style="top:46%;left:80%">
@@ -33,6 +30,17 @@
                     </div>
                 </div>
             </button>
+
+            <!-- <i class="fa-solid fa-location-dot" tabindex="0" style="top:46%;left:80%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Adicet Bio</h2>
+                        <p>200 Clarendon St, 
+                            Floor 6 Suite #6041 Boston, MA 02116
+                        </p>
+                    </div>
+                </div>
+            </i>  -->
 
             <!-- MA -->
             <button class="map-point" style="top:38%;left:28%">
@@ -229,14 +237,19 @@
                 </div>
             </button>
         </div>
+
+        <div class="back">
+            <a href="../../index.html">Back</a>
+        </div>
     </div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/c30e7c41ec.js" crossorigin="anonymous"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://unpkg.com/topojson-client@2"></script>
-<script src="./versor.js"></script>
+<!-- <script src="https://unpkg.com/topojson-client@2"></script> -->
+<!-- <script src="./versor.js"></script> -->
 
-<script>
+<!-- <script>
 
     var canvas = d3.select("canvas"),
         width = canvas.property("width"),
@@ -291,5 +304,5 @@
       render();
     });
     
-    </script>
+    </script> -->
 </html>
